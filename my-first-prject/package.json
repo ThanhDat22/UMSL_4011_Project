@@ -1,0 +1,15 @@
+{
+  "name": "my-first-prject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htpp://github.com/ThanhDat22"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
