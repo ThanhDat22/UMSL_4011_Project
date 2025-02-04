@@ -11,5 +11,11 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
