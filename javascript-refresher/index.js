@@ -1,3 +1,5 @@
+const { co } = require("co");
+
 console.log('Hello, World!');
 
 // Declaring variables
@@ -64,3 +66,40 @@ const myArray1 = [1, 2, 3, 4, 5];
 const myArray2 = [0, ...myArray1, 6, 7, 8, 9, 10];
 
 console.log(myArray2);
+
+// forEeach
+
+// const numbers = [1, 2, 3, 4, 5, 26];
+
+// let numbersX2 = [];
+
+// numbers.forEach((number) => numbersX2.push(number * 2));
+
+// console.log(numbersX2);
+
+// map
+const numbers = [1, 2, 3, 4, 5, 26];
+
+const numbersX2 = numbers.map((number) => number * 2);
+
+console.log(numbersX2);
+
+const employees = [
+    {name: 'Mike', title: 'Professor', salary: 100000, deparment: ['Computer Science']},
+    {name: 'Madhuri', title: 'Professor', salary: 200000, deparment: ['Computer Science']},
+    {name: 'Cezary', title: 'Chair', salary: 300000, deparment: ['Computer Science', 'Mathematics']}
+];
+
+const getDepartment = (employee) => employee.deparment;
+
+const departments = employees.flatMap(getDepartment);
+
+console.log(departments);
+
+// filter
+
+const isChair = (employee) => employee.title === 'Chair';
+
+const chairs = employees.filter(isChair);
+
+console.log(chairs);
