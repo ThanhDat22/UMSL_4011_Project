@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getInventoryWithProfitPotential Generates an item array with Profit Potential 1`] = `
+[
+  {
+    "name": "iPad Pro",
+    "potentialProfit": 200,
+    "pricePerUnit": 1200,
+    "quantity": 8,
+    "wholesalePrice": 1000,
+  },
+  {
+    "name": "Macbook Pro",
+    "potentialProfit": 200,
+    "pricePerUnit": 1700,
+    "quantity": 2,
+    "wholesalePrice": 1500,
+  },
+]
+`;

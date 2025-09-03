@@ -35,11 +35,38 @@ import fs from 'fs'
 // });
 
 // or we can use
-fs.readFile('./someFile', (err, data) => {
-    if (err) {
-        console.log('ERROR', err);
-    } else {
-        console.log(data.toString());
-    }
-});
+// fs.readFile('./someFile', (err, data) => {
+//     if (err) {
+//         console.log('ERROR', err);
+//     } else {
+//         console.log(data.toString());
+//     }
+// });
+
+// Making Network Requests using Promises
+
+import axios from 'axios';
+
+// const result = axios.get('https://pokeapi.co/api/v2/pokemon/ditto').then((response) => {
+//     console.log(response.data);
+// }).catch((reson) => {
+//     console.log(reson);
+// });
+
+// Async Await
+
+// const promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve('Hello World');
+//     }, 3000);
+// });
+
+// const myAsyncFunction = async () => {
+//     await promise;
+//     console.log('I am not blocked');
+// }
+
+// myAsyncFunction();
+
+// Promise All
 
